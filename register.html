@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet"href="Style.CSS">
+</head>
+<body>
+    <h1>Student</h1>
+    <section>
+        <h2>Student Registration Form</h2>
+    <form>
+       <p>Full Name:<br><input type="text"></p> 
+       <p>Email adress:<br><input type="email"></p>
+       <p>Password:<br><input type="password"></p>
+       <p>Confirm Password:<br><input type="password"></p>
+       <p>Date Of Birth:<br><input type="date"></p>
+
+       <labe>Gender:</labe><br>
+       <input type="radio"name="gender" id="male">
+       <label for="male">male</label>
+       <input type="radio" name="gender"id="female">
+       <label for="female">female</label>
+       <input type="radio"name="gender"id="other">
+       <label for="male">other</label>
+    
+    <br>
+    <input type="Submit"value="Ragister">
+    <input Type="reset"value="Clear">
+    </form>
+    </section>
+        <p>
+            Phone Number:<br><input type="tel"></input>
+        </p>  
+        <p>
+            address:<br>
+            <textarea rows="4" cols="40"></textarea>
+        </p>
+        <p>
+            Course:<br>
+            <select>
+                <option>Select Course</option>
+                <option>BCA</option>
+                <option>B.sc</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+                <option>MCA</option>
+            </select>
+        </p>  
+        <p>Hobbies:</p>
+        <input type="checkbox" id="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox"id="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox"id="travelling">
+        <label for="travelling">Travelling</label><br>
+        <p>
+            <input type="checkbox"required>
+            I agree to the Terms and conditions
+        </p>
+</body>
+</html>
